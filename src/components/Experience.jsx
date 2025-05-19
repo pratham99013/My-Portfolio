@@ -136,10 +136,14 @@ const Experience = () => {
         </div>
 
         <div className="mt-16 text-center">
+           <a href="https://drive.google.com/file/d/1jbKxkyRECxB_3KzKJYtiqtfTdXkOETnG/view?usp=sharing">
           <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium shadow-lg hover:shadow-xl transition-shadow duration-300">
+           
             <Award className="w-5 h-5 mr-2" />
             <span>View Full Resume</span>
+        
           </div>
+              </a>
         </div>
       </div>
     </section>

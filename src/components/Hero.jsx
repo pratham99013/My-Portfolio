@@ -85,13 +85,14 @@ const Hero = () => {
                 Learn more
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
-              <a
-                href="#"
-                className="px-8 py-4 rounded-full bg-white dark:bg-gray-800 text-indigo-600 dark:text-indigo-400 font-medium shadow-lg hover:shadow-xl border border-indigo-100 dark:border-gray-700 transition-all duration-300 transform hover:-translate-y-1 flex items-center"
-              >
-                Download CV
-                <Download className="ml-2 h-5 w-5" />
-              </a>
+            <a
+  href="/My_resume.pdf"
+  download
+  className="px-8 py-4 rounded-full bg-white dark:bg-gray-800 text-indigo-600 dark:text-indigo-400 font-medium shadow-lg hover:shadow-xl border border-indigo-100 dark:border-gray-700 transition-all duration-300 transform hover:-translate-y-1 flex items-center"
+>
+  Download CV
+  <Download className="ml-2 h-5 w-5" />
+</a>
             </div>
 
             <div className="flex space-x-4">
